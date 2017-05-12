@@ -1,6 +1,6 @@
-#Robot Kata
+<h1>Robot Kata</h1>
 
-##Description
+<h2>Description</h2>
 
 A squad of robots is to be deployed on a plateau. This plateau, which is curiously rectangular, must be navigated by the robots.
 
@@ -22,25 +22,25 @@ INPUT AND OUTPUT EXAMPLE:
 | MMRMMRMRRM |              |
 
 
-##Optional
+<h2>Optional</h2>
 
 Using the implementation of yoursolution to the Robot Kata as a base, implement a mechanism whereby your solution can be used remotely. You may wish to choose to implement your own client or to use an existing widely available client such as telnet, curl or a web browser for interacting with your solution.
 
-##How to run
+<h2>How to run</h2>
 
 Create a goal or just run into your console:
 
 >`mvn jetty:run`
 
 
-##Tests
+<h2>Tests</h2>
 
 Run the command below or just run as JUnit Tests in your IDE to see the metrics:
 
 >`mvn test`
 
 
-##How does it work
+<h2>How does it work</h2>
 
 When the server is up&running, request a service as below, providing your data as a POST body.
 For this purpose you can use cURL, POSTMAN or any other rest client.
@@ -54,7 +54,7 @@ E.g.:
 >`curl -d "5 5" -H "Content-Type: text/plain" http://localhost:8080/robot/start`
 
 
-##Services
+<h2>Services</h2>
 
 | url     | method | consumes            | produces    | description                     |
 |---------|--------|---------------------|-------------|---------------------------------|
@@ -64,7 +64,7 @@ E.g.:
  
 
 
-##How to use it
+<h2>How to use it</h2>
 
 1) Set the plateau bounds. E.g:
 
